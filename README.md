@@ -17,6 +17,8 @@ The [ anon ] value is anonymous memory mapping, which is part of the memory popu
 * *Dirty:* The status of the memory pages
 * *Mode:* Access mode and privileges
 * *Mapping:* The user-facing name of the application or library
+* *Offset:*	offset into the file
+* *Device:*	device name (major:minor)
 
 * *r:* The mapped memory can be read by the process.
 * *w:* The mapped memory can be written by the process.
